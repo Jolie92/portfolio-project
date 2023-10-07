@@ -1,4 +1,7 @@
-
+:root {
+    --branding-color: #B931FC;
+    --secondary-color: #D7BBF5;
+}
 h1,h2,h3,h4{
     font-family: "Playfair Display", serif;
     font-weight: bold;
@@ -18,7 +21,7 @@ font-family: "Poppins", sans-serif;
     line-height: 30px;
 }
 .hero{
-    background-color: #F9F7FE;
+    background: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
 }
@@ -35,7 +38,7 @@ font-family: "Poppins", sans-serif;
     line-height: 1.5;
 }
 .btn{
-    background-color: #6C63FF;
+    background: var(--branding-color);
     border-radius: 4px;
     color: white;
     font-size: 18px;
@@ -47,8 +50,8 @@ font-family: "Poppins", sans-serif;
     line-height: 27px;
     padding: 15px 30px;
     border-radius: 4px;
-    color:#6C63FF;
-    border: 1px solid #6C63FF;
+    color: var(--branding-color);
+    border: 1px solid #B931FC;
     background-color: white;
 }
 .project-description{
