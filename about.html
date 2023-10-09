@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Shecodes Portfolio</title>
+        <title>About me</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
@@ -21,10 +21,32 @@
 
     </head>
     <body>
-        <div class="about-section container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarNav" style>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="work.html">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content-container container">
             <div class="row">
                 <div class="col-lg-6">
-    <div class="about-section-content">
+    <div class="content">
 <h1 class="mt-4">Hello I am <br> Laura Loriga</h1>
 <h2 class="mb-4">Frontend Developer, based in UK.</h2>
 <p class="mb-5">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different
@@ -33,7 +55,7 @@ exercises, and everything is well explained, homework and deadlines are good for
     </div>
         </div>
 <div class="col-lg-6">
-    <img src="images/me.jpg" class="img-fluid">
+    <img src="images/me.jpg" class="img-fluid rounded">
         </div>
         </div>
 </body>
