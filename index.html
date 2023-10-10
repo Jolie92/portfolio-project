@@ -20,29 +20,30 @@
    
     </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Home</a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" id="navbarNav" style>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+    <div class="container">
+    <nav class="d-flex justify-content-between">
+        <a href="/">
+            <img src="images/logo.png" class="logo d-none d-md-block" alt="">
+            <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="">
+            
+        </a>
+            <ul>
+                <li class="active">
+            <a href="/">Home</a>
+            </li>
+                <li>
+                    <a href="/about.html">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="work.html">Work</a>
+                    <li>
+                        <a href="/work.html">Work</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                    <li>
+                        <a href="/contact.html">Contact</a>
                     </li>
                 </ul>
-            </div>
-        </div>
     </nav>
+    </div> 
+
     <div class="hero">
     <p >👋 Hello, I am </p>
     <h1>Laura Loriga</h1>
@@ -101,6 +102,32 @@ Duden flows by</p>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h4>Work Inquiry</h4>
+                    <p class="text-muted">Let's work together</p>
+                </div>
+                <div>
+                    <a href="" class="btn btn-branding mt-3"> Contact me </a>
+                </div>
+            </div>
+            
+            <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:lauraloriga92@gmail.com" 
+            class="email-link">
+                lauraloriga92@gmail.com</a>
+                </div>
+
+                <div class="social-links d-flex justify-content-center mb-5">
+                    <a href="https://github.com/Jolie92" target="_blank">
+                        <i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_lalalalalaura/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/laura.loriga.25/" target="_blank">
+                        <i class="fa-brands fa-facebook"></i></a>
+                </div>
+                </footer>
     </div>
 </body>
 </html>
