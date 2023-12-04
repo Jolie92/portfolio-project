@@ -42,6 +42,7 @@ h1{
     margin:30px;
 }
 
+
 h2 {
     font-size: 54px;
 }
@@ -59,6 +60,9 @@ font-family: "Poppins", sans-serif;
     background: var(--secondary-color);
     text-align: center;
     padding: 80px 20px;
+}
+.hero h1{
+    font-size: 60px;
 }
 .hero p{
     font-size: 36px;
@@ -91,7 +95,9 @@ font-family: "Poppins", sans-serif;
 }
 .project-description{
     padding: 120px 60px;
+    
 }
+
 .logo {
     max-height: 40px;
 }
